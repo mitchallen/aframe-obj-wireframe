@@ -1,0 +1,32 @@
+# tetrahedron-corner.obj
+# Author: Mitch Allen
+
+# This version revolved around the first vertex
+
+mtllib colors.mtl
+
+v  0.0  0.0  0.0
+v  1.0  1.0  0.0
+v  1.0  0.0  1.0
+v  0.0  1.0  1.0
+
+o tetrahedron
+
+usemtl txred1
+
+f 2 1 4
+
+usemtl blue1
+
+f 4 3 2
+
+usemtl txgreen1
+
+f 1 3 4
+
+usemtl purple1
+
+f 3 1 2
+
+
+

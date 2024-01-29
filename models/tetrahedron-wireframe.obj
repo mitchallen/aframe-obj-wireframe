@@ -1,0 +1,42 @@
+# tetrahedron-wireframe.obj
+# Author: Mitch Allen
+
+# This version is centered at 0,0,0
+
+mtllib colors.mtl
+
+v -0.5 -0.5 -0.5
+v  0.5  0.5 -0.5
+v  0.5 -0.5  0.5
+v -0.5  0.5  0.5
+
+o tetrahedron
+
+usemtl yellow1
+
+l 1 2
+
+usemtl red1
+
+l 2 3
+
+usemtl green1
+
+l 3 4
+
+usemtl purple1
+
+l 4 1
+
+usemtl blue1
+
+l 2 4
+
+usemtl white1
+
+l 1 3
+
+
+
+
+
